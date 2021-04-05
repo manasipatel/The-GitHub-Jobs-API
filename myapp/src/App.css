@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #F5F6F8;
+}
+
+
+.listitem {
+  float: left;
+  width: 31%;
+  height: 300px;
+  padding: 20px;
+  background-color: white;
+  margin:40px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.listitem img {
+  height: 50px;
+  width: 50px;
+  position:absolute;
+  margin-top:-50px;
+  border-radius:10px;
+}
+
+input[type="text"] {
+  width: 25%;
+  height: 30px;
+  border-color: white;
+  border: 0px;
+  font-family: Verdana;
+}
+
+  input[type="text"]:focus {
+      border-color: white;
+      border: 0px;
+  }
+
+  input[type="text"]:active {
+      border-color: white;
+      border: 0px;
+  }
+
+label {
+  font-weight: bold;
+  font-family: Verdana;
+}
+
+button {
+  height: 35px;
+  width: 150px;
+  margin-left: 50px;
+  background-color: #5964e0;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  font-family: Verdana;
+  font-weight: bold;
+  float: right;
+}
+
+.mainBodyDiv {
+  font-family: Verdana;
+}
+
+.headerDiv {
+  background-color: #5964e0;
+  padding: 50px 0px 50px 100px;
+  margin: 0px 10px 0px 10px;
+  color: white;
+  border-radius: 0px 0px 0px 60px;
+}
+
+.searchDiv {
+  background-color: white;
+  
+  color: black;
+  padding: 10px;
+  margin: -25px 10px 0px 7%;
+  border-radius: 5px;
+  width: 85%;
+  position: relative;
+}
+
+.listContainer {
+  overflow: auto;
+  background-color: #F5F6F8;
+  color: black;
+  min-height: 700px;
+  width: 100%;
+  padding: 50px 20px;
+}
+
+.footer {
+  background-color: #5865E0;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:620px) {
+
+  /* For mobile phones: */
+  .listitem,
+  .headerDiv,
+  .listContainer,
+  .footer,
+  .listitem {
+      width: 100%;
+  }
+}
